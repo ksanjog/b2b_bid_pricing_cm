@@ -1,0 +1,49 @@
+﻿variable,db_col,type
+Fiscal,fiscal,int
+Bid #,bid_no,int
+Destination #,destination_no,varchar
+Award Competitor,bidder_id,varchar
+Award Competitor Name,bidder_name,varchar
+Sales Region Name,region,varchar
+Bid Name,bid_name,varchar
+Bid Due Date,bid_due_date,date
+Bid Type Name,bid_type,varchar
+Customer,customer_id,int
+Customer Name,customer_name,varchar
+Customer Type Name,customer_type,varchar
+Destination Name,destination_name,varchar
+Destination County Name,destination_county,varchar
+Destination State/Prov,destination_state,varchar
+Destination Zip/Postal,destination_zip,int
+Depot #,depot_no,int
+Depot Name,depot_name,varchar
+Producer ID,producer_id,int
+Producer Name,producer_name,varchar
+Product ID,product_id,int
+Product Name,product_name,varchar
+Award Price (TY),award_price,numeric
+Total Qty (TY),total_qty,numeric
+Total EF Qty (TY),total_ef_qty,numeric
+Min Purchase Qty (TY),min_purchase_qty,numeric
+Max Supply Qty (TY),max_supply_qty,numeric
+Distance (TY),distance,int
+Stockpile Depot Cost (TY),stockpile_depot_cost,numeric
+Direct Transfer Depot Cost (TY),direct_trsfr_depot_cost,numeric
+Freight Cost (TY),freight_cost,numeric
+Fuel Surcharge Cost (TY),fuel_srchrg_cost,numeric
+Equipment Cost (TY),equip_cost,numeric
+Committed Cost (TY),committed_cost,numeric
+Committed Price (TY),committed_price,numeric
+Award MR (TY),award_mr,numeric
+Award Margin (TY),award_margin,numeric
+Shipment Qty (TY),shipment_qty,numeric
+Competitor Price,bidder_price,numeric
+Request Method,request_method,varchar
+COUNTRY,country,varchar
+County State,county_state,varchar
+Effective Date,effective_date,date
+Expiry Date,expiry_date,date
+Opening Date,opening_date,date
+Multi-Year,multi_year,boolean
+Multi-Year Ending Fiscal,multi_year_end_fiscal,int
+Rollover,rollover,boolean
